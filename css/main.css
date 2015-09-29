@@ -65,3 +65,24 @@ body {
 .sherlock {
     font-weight: 600;
 }
+
+
+
+.foot {
+    height: 5%;
+    background-image: url(../images/wood-two.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+        overflow: hidden;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    transform: translateY(50%);
+}
