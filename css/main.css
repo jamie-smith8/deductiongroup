@@ -96,13 +96,25 @@ body {
 
 .con-info {
     list-style: none;
+    padding-top: 5%;
+}
+
+.contact-info {
+    display: block;
+    margin: auto;
+}
+
+.contact-grid {
+    margin: 2% 5% 0 5% ;
 }
 
 .invisi-photo {
     display: none;
 }
 
-
+img {
+    width: 100%;
+}
 
 
 
