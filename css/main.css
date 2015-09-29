@@ -28,19 +28,19 @@ body {
     color: #40363B;
     display: block;
     margin: auto;
+    max-width: 6in;
 }
 
 .intro-p {
     line-height: 38px;
     font-weight: 300;
     color: #40363B;
-    padding-top: 0;
     display: block;
     margin: auto;
+    max-width: 6in;
 }
 
 .intro {
-    height: 95vh;
     padding-top: 10%;
 }
 
