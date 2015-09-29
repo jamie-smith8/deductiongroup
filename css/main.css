@@ -40,12 +40,27 @@ body {
     display: block;
     margin: auto;
     max-width: 6in;
+    padding-bottom: 10%;
 }
 
 .intro {
     padding-top: 10%;
+    padding-bottom: 20%;
 }
 
 .bold {
     color: 
+}
+
+.quote {
+    padding: 20px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    color:#40363B;
+    border: 2px solid #40363B;
+}
+
+.sherlock {
+    font-weight: 600;
 }
