@@ -59,12 +59,51 @@ body {
     margin: auto;
     color:#40363B;
     border: 1px solid #40363B;
-    max-width: 3.5in;
+    max-width: 4in;
 }
 
 .sherlock {
     font-weight: 600;
 }
+
+.subheader {
+    height: 3rem;
+    background-color: #40363B;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding-left: 5%;
+}
+
+.subs {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+}
+
+.services {
+    margin: 5%;
+    max-width: 6in;
+}
+
+.name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.con-info {
+    list-style: none;
+}
+
+.invisi-photo {
+    display: none;
+}
+
+
+
 
 
 
@@ -86,3 +125,34 @@ body {
     -moz-transform: translateY(50%);
     transform: translateY(50%);
 }
+
+
+@media only screen and (min-width: 25em) {
+   
+    
+}
+
+
+
+
+
+
+@media only screen and (min-width: 38em) {
+    
+     
+    .invisi-photo {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (min-width: 60em) {
+}
+
+
+
+@media only screen and (min-width: 90em) {
+}
+
+
