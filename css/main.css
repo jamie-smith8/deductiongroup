@@ -99,6 +99,11 @@ body {
     padding-top: 5%;
 }
 
+.consult {
+    padding-top: 5%;
+    text-align: center;
+}
+
 .contact-info {
     display: block;
     margin: auto;
@@ -155,6 +160,10 @@ img {
     .invisi-photo {
         display: block;
     }
+    
+    .consult {
+    text-align: left;
+}
 }
 
 
