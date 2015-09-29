@@ -1,5 +1,10 @@
+html {
+    font-family: "Fira Sans", sans-serif;
+}
+
+
 .banner {
-    height: 95vh;
+    height: 100vh;
     background-image: url(../images/wood-two.jpg);
     background-size: cover;
 }
@@ -7,6 +12,7 @@
 body {
     margin: auto;
 }
+
 
 .top-logo {
     width: 70%;
@@ -18,35 +24,11 @@ body {
     opacity: .7;
 }
 
-.nav-bar {
-    height: 5vh;
-    background-color: #40363B;
+.define {
+    margin: 10% 15% 0 15%;
+    color: #40363B;
 }
 
-
-.nav-list {
-    list-style: none;
-    color: white;
-    font-family: "Fira Sans", sans-serif;
-}
-
-li {
-    display: inline-block;
-    padding-right: 20px;
-    padding-top: 0;
-    margin: 0;
-}
-
-li:hover {
-    opacity: .5;
-    
-}
-
-.nav-logo {
-    height: 3vh;
-    padding-top: 1vh;
-}
-
-.item-one {
-        padding-left: 40px;
+.intro {
+    margin: 10%;
 }
