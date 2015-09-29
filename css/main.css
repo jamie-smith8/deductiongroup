@@ -25,10 +25,25 @@ body {
 }
 
 .define {
-    margin: 10% 15% 0 15%;
     color: #40363B;
+    display: block;
+    margin: auto;
+}
+
+.intro-p {
+    line-height: 38px;
+    font-weight: 300;
+    color: #40363B;
+    padding-top: 0;
+    display: block;
+    margin: auto;
 }
 
 .intro {
-    margin: 10%;
+    height: 95vh;
+    padding-top: 10%;
+}
+
+.bold {
+    color: 
 }
