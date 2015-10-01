@@ -24,28 +24,31 @@ body {
     -moz-transform: translateY(-50%);
     transform: translateY(-50%);
     opacity: .7;
-}
-
-.define {
-    color: #40363B;
-    display: block;
-    margin: auto;
-    max-width: 6in;
+    z-index: 2;
 }
 
 .intro-p {
-    line-height: 38px;
     font-weight: 300;
-    color: #40363B;
-    display: block;
-    margin: auto;
-    max-width: 6in;
-    padding-bottom: 10%;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    padding-bottom: 20%;
+    position: absolute;
+    top: 2rem;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    transform: translateX(50%);
+    width: 75%;
 }
 
 .intro {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    background-image: url(../images/parliament.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 .bold {
@@ -55,11 +58,15 @@ body {
 .quote {
     padding: 20px;
     width: 50%;
-    display: block;
-    margin: auto;
-    color:#40363B;
-    border: 1px solid #40363B;
+    color: white;
+    border: 1px solid white;
     max-width: 4in;
+    position: absolute;
+    bottom: 4rem;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    transform: translateX(50%);
 }
 
 .sherlock {
