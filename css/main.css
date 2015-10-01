@@ -96,6 +96,10 @@ body {
     max-width: 6in;
 }
 
+.service-bg {
+    
+}
+
 .name {
     text-transform: uppercase;
     font-weight: 600;
