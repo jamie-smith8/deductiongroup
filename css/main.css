@@ -34,6 +34,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .intro-p {
@@ -60,6 +61,7 @@ body {
     max-width: 4in;
     display: block;
     margin: auto;
+    width: 80%;
 }
 
 .sherlock {
@@ -139,12 +141,16 @@ img {
 
 .copy {
     color: white;
+    font-size: 12px;
+    letter-spacing: 2px;
     text-align: center;
     position: relative;
     bottom: 50%;
     -webkit-transform: translateY(50%);
     -moz-transform: translateY(50%);
     transform: translateY(50%);
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 a {
@@ -165,6 +171,10 @@ a {
 
 @media only screen and (min-width: 38em) {
     
+    .intro-p {
+        font-size: 20px;
+    }
+    
      
     .invisi-photo {
         display: block;
@@ -178,6 +188,10 @@ a {
 
 
 @media only screen and (min-width: 60em) {
+    
+    .intro-p {
+        font-size: 30px;
+    }
 }
 
 
