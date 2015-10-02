@@ -25,8 +25,16 @@ body {
     transform: translateY(-50%);
     opacity: .7;
     z-index: 2;
+    max-width: 55%;
 }
 
+.arrow {
+    width: 6%;
+    position: absolute;
+    bottom: 3%;
+    left: 47%;
+    opacity: .4;
+}
 
 .intro {
     background-image: url(../images/parliament.jpg);
@@ -55,7 +63,6 @@ body {
 
 .quote {
     padding: 20px;
-    width: 50%;
     color: white;
     border: 1px solid white;
     max-width: 6in;
@@ -87,10 +94,24 @@ body {
 }
 
 .services {
-    margin: 5%;
+    color: #40363B;
     max-width: 6in;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
+.service-bg {
+    background-color: beige;
+}
+
+.cont-sect {
+    overflow: hidden;
+}
 .name {
     text-transform: uppercase;
     font-weight: 600;
@@ -113,12 +134,6 @@ body {
 
 .contact-grid {
     margin: 2% 5% 0 5% ;
-}
-
-.service-bg {
-    background-image: url(../images/business-gradient.jpg);
-    background-size: cover;
-    width: 100%;
 }
 
 .invisi-photo {
@@ -162,21 +177,12 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (min-height: 25em) {
-   
-    .service-bg {
-        background-image: none;
-    }
-    
-}
 
 
 @media only screen and (min-width: 25em) {
+    
    
-    .service-bg {
-        background-image: url(../images/business-gradient.jpg);
-        background-size: cover;
-    }
+    
     
 }
 
@@ -187,15 +193,19 @@ a {
 
 @media only screen and (min-width: 38em) {
     
+
+    
+
+    
     .intro-p {
         font-size: 20px;
     }
-    
-    
-    
      
     .invisi-photo {
         display: block;
+        height: 100vh;
+        width: auto;
+        margin: auto;
     }
     
     .consult {
@@ -207,12 +217,13 @@ a {
 
 @media only screen and (min-width: 60em) {
     
+    
     .intro-p {
         font-size: 30px;
     }
     
-    .service-bg {
-        background-image: none;
+    .bus-invisi {
+        display: block;
     }
 }
 
