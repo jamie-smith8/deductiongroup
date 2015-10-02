@@ -58,7 +58,7 @@ body {
     width: 50%;
     color: white;
     border: 1px solid white;
-    max-width: 4in;
+    max-width: 6in;
     display: block;
     margin: auto;
     width: 80%;
@@ -127,7 +127,9 @@ img {
     width: 100%;
 }
 
-
+section {
+    height: 100vh;
+}
 
 
 .foot {
@@ -136,7 +138,7 @@ img {
     background-size: cover;
     padding: 0;
     margin: 0;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 .copy {
