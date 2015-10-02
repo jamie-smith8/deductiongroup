@@ -91,10 +91,6 @@ body {
     max-width: 6in;
 }
 
-.service-bg {
-    
-}
-
 .name {
     text-transform: uppercase;
     font-weight: 600;
@@ -117,6 +113,12 @@ body {
 
 .contact-grid {
     margin: 2% 5% 0 5% ;
+}
+
+.service-bg {
+    background-image: url(../images/business-gradient.jpg);
+    background-size: cover;
+    width: 100%;
 }
 
 .invisi-photo {
@@ -160,9 +162,21 @@ a {
     text-decoration: none;
 }
 
+@media only screen and (min-height: 25em) {
+   
+    .service-bg {
+        background-image: none;
+    }
+    
+}
+
 
 @media only screen and (min-width: 25em) {
    
+    .service-bg {
+        background-image: url(../images/business-gradient.jpg);
+        background-size: cover;
+    }
     
 }
 
@@ -176,6 +190,8 @@ a {
     .intro-p {
         font-size: 20px;
     }
+    
+    
     
      
     .invisi-photo {
@@ -193,6 +209,10 @@ a {
     
     .intro-p {
         font-size: 30px;
+    }
+    
+    .service-bg {
+        background-image: none;
     }
 }
 
